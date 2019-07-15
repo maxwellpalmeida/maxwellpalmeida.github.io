@@ -1,33 +1,49 @@
-
-
 <!DOCTYPE html>
 
 <html>
 
 <!--  -->
  <head>
-<script  src="//b-js.ringba.com/CAb386a08bb6c240b5af3461488d23ed00" async="async"></script>
+  <script lang="javascript">
+    (function _LoadRingba() {
+      var paramName = 'kw';
+      var mapping = {
+        'test1': 'CAb386a08bb6c240b5af3461488d23ed00'	      
+      }
+      var _qp = _parseQP();
+      var cmpID = _qp && _qp[paramName] && mapping[_qp[paramName]];
+      if (cmpID) {
+        var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
+        sc.src = '//b-js.ringba.com/' + cmpID;
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
+      }
+      function _parseQP() {
+        var qp = window.location.search.substr(1).split('&');
+        //stackoverflow: http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+        if (qp == "") return {};
+        var b = {};
+        for (var i = 0; i < qp.length; ++i) {
+          var p = qp[i].split('=', 2);
+          if (p.length == 1)
+            b[p[0]] = "";
+          else
+            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+        }
+        return b;
+      }
+    })();
+  </script>
 
 </head>
 <body >
 
-THIS IS YOUR RINBGA POOL NUMBER v3
+THIS IS YOUR RINBGA POOL NUMBER 
+	
+	
+	
+	#2 1-888-973-5167
 	<p>
 	
-	<script> (function(e,d) {
-        //Ringba.com phone number tracking
-        var ringba_com_tag="JS9b2fcae2c01945dc85b5758b8290e4c3";
-        var _sc = d.getElementsByTagName('script'), _s = _sc[_sc.length - 1];
-        e._rgba = e._rgba || { q: [] }; e._rgba.q.push({ tag: ringba_com_tag, script: _s });
-        if (!(e._rgba.loading = !!e._rgba.loading)) {
-            var sc = d.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
-            sc.src = '//js.callcdn.com/js_v2/min/ringba.com.js';
-            var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
-            e._rgba.loading = true;
-        }
-   })(window,document); </script>
-	
-		
-		<span  class="phNumber">18888888888</span>
 
+	
 </html>
