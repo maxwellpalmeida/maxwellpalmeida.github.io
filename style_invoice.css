@@ -12219,7 +12219,7 @@ form .large-text {
 }
 
 .base-invoice-display-mixin #NextContemporary .contemporary-template__header {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     margin: 26px 0 0 0
 }
@@ -12251,7 +12251,7 @@ form .large-text {
 
 .base-invoice-display-mixin #NextContemporary .contemporary-template__metadata {
     margin-right: -30px;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     line-height: 16px
 }
@@ -12260,7 +12260,7 @@ form .large-text {
     -webkit-flex-grow: 1;
     flex-grow: 1;
     padding-top: 4px;
-    display: -webkit-flex;
+    display: flex;
     display: flex
 }
 
@@ -12423,7 +12423,7 @@ form .large-text {
     }
 
 .base-invoice-display-mixin #NextContemporary .contemporary-template__totals {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     margin-bottom: 35px;
     margin-left: -16px;
@@ -12436,7 +12436,7 @@ form .large-text {
 }
 
 .base-invoice-display-mixin #NextContemporary .contemporary-template__totals__amounts {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
@@ -12445,7 +12445,7 @@ form .large-text {
 }
 
 .base-invoice-display-mixin #NextContemporary .contemporary-template__totals__amounts__line {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
@@ -12619,7 +12619,7 @@ form .large-text {
 }
 
 .pdf-export #NextContemporary .contemporary-template__header, .read-only-view #NextContemporary .contemporary-template__header {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     margin: 26px 0 0 0
 }
@@ -12651,7 +12651,7 @@ form .large-text {
 
 .pdf-export #NextContemporary .contemporary-template__metadata, .read-only-view #NextContemporary .contemporary-template__metadata {
     margin-right: -30px;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     line-height: 16px
 }
@@ -12660,7 +12660,7 @@ form .large-text {
     -webkit-flex-grow: 1;
     flex-grow: 1;
     padding-top: 4px;
-    display: -webkit-flex;
+    display: flex;
     display: flex
 }
 
@@ -12823,7 +12823,7 @@ form .large-text {
     }
 
 .pdf-export #NextContemporary .contemporary-template__totals, .read-only-view #NextContemporary .contemporary-template__totals {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     margin-bottom: 35px;
     margin-left: -16px;
@@ -12836,7 +12836,7 @@ form .large-text {
 }
 
 .pdf-export #NextContemporary .contemporary-template__totals__amounts, .read-only-view #NextContemporary .contemporary-template__totals__amounts {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
@@ -12845,7 +12845,7 @@ form .large-text {
 }
 
 .pdf-export #NextContemporary .contemporary-template__totals__amounts__line, .read-only-view #NextContemporary .contemporary-template__totals__amounts__line {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
@@ -13020,7 +13020,7 @@ form .large-text {
 }
 
 .pdf-view #NextContemporary .contemporary-template__header {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     margin: 26px 0 0 0
 }
@@ -13052,7 +13052,7 @@ form .large-text {
 
 .pdf-view #NextContemporary .contemporary-template__metadata {
     margin-right: -30px;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     line-height: 16px
 }
@@ -13061,7 +13061,7 @@ form .large-text {
     -webkit-flex-grow: 1;
     flex-grow: 1;
     padding-top: 4px;
-    display: -webkit-flex;
+    display: flex;
     display: flex
 }
 
@@ -13224,7 +13224,7 @@ form .large-text {
     }
 
 .pdf-view #NextContemporary .contemporary-template__totals {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     margin-bottom: 35px;
     margin-left: -16px;
@@ -13237,7 +13237,7 @@ form .large-text {
 }
 
 .pdf-view #NextContemporary .contemporary-template__totals__amounts {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
@@ -13246,7 +13246,7 @@ form .large-text {
 }
 
 .pdf-view #NextContemporary .contemporary-template__totals__amounts__line {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
@@ -13411,7 +13411,7 @@ html {
 }
 
 #ClassicTemplate .classic-template__header {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -13439,14 +13439,14 @@ html {
 }
 
 #ClassicTemplate .classic-template__separator__header {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center
 }
 
 #ClassicTemplate .classic-template__separator__header__frame {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -13497,7 +13497,7 @@ html {
 }
 
 #ClassicTemplate .classic-template__metadata {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     line-height: 16px;
     margin-top: 4px;
@@ -13513,7 +13513,7 @@ html {
     -webkit-flex-grow: 1;
     flex-grow: 1;
     padding-top: 4px;
-    display: -webkit-flex;
+    display: flex;
     display: flex
 }
 
@@ -13612,7 +13612,7 @@ html {
         }
 
 #ClassicTemplate .classic-template__totals {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     margin-bottom: 35px
 }
@@ -13627,7 +13627,7 @@ html {
 }
 
 #ClassicTemplate .classic-template__totals__amounts {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
@@ -13635,7 +13635,7 @@ html {
 }
 
 #ClassicTemplate .classic-template__totals__amounts__line {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
@@ -13694,7 +13694,7 @@ html {
 }
 
 .vertical-align-container {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center
@@ -13725,7 +13725,7 @@ html {
 }
 
 #NextModernTemplate .modern-template__header {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     height: 170px;
     line-height: normal
@@ -13734,7 +13734,7 @@ html {
 #NextModernTemplate .modern-template__header__label {
     padding-left: 30px;
     width: 570px;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center
@@ -13757,7 +13757,7 @@ html {
 #NextModernTemplate .modern-template__header__amount-due {
     text-align: center;
     width: 320px;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -13771,7 +13771,7 @@ html {
 }
 
 #NextModernTemplate .modern-template__metadata {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     margin: 30px 30px 20px 30px
 }
@@ -13784,7 +13784,7 @@ html {
 #NextModernTemplate .modern-template__metadata__customer {
     -webkit-flex-grow: 1;
     flex-grow: 1;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     line-height: 16px
 }
@@ -13874,7 +13874,7 @@ html {
 }
 
 #NextModernTemplate .modern-template__totals {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     margin: 25px 0;
     line-height: 16px
@@ -13886,7 +13886,7 @@ html {
 }
 
 #NextModernTemplate .modern-template__totals__amounts {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
@@ -13895,7 +13895,7 @@ html {
 }
 
 #NextModernTemplate .modern-template__totals__amounts__line {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
@@ -13943,7 +13943,7 @@ html {
 }
 
 #NextModernTemplate .modern-template__business-info {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     align-items: top;
     padding: 0 24px 24px 24px
@@ -17090,7 +17090,7 @@ input[type=number].wv-input {
     margin-left: -41px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
@@ -17208,7 +17208,7 @@ input[type=number].wv-input {
     box-shadow: 0 0 0 1px rgba(77,101,117,0.1),0 3px 10px 0 rgba(77,101,117,0.2);
     height: 0;
     padding: 16px;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
@@ -17247,7 +17247,7 @@ input[type=number].wv-input {
 }
 
 .wv-datepicker__header {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
@@ -17420,7 +17420,7 @@ input[type=number].wv-input {
 }
 
 .wv-datepicker--range {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column
@@ -17483,7 +17483,7 @@ input[type=number].wv-input {
 }
 
 .wv-datepicker--distant {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: baseline;
     align-items: baseline
@@ -17812,7 +17812,7 @@ input[type=number].wv-input {
 .wv-select__menu__option {
     padding: 8px 10px;
     cursor: pointer;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     position: relative
 }
@@ -17903,7 +17903,7 @@ input[type=number].wv-input {
     font-weight: bold;
     padding: 16px 10px 4px;
     margin-top: 8px;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -17911,7 +17911,7 @@ input[type=number].wv-input {
 }
 
     .wv-select__menu__title .wv-form-element {
-        display: -webkit-flex;
+        display: flex;
         display: flex
     }
 
@@ -18053,7 +18053,7 @@ input[type=number].wv-input {
 }
 
 .wv-form-field {
-    display: -webkit-flex;
+    display: flex;
     display: flex
 }
 
@@ -18400,7 +18400,7 @@ input[type=number].wv-input {
         }
 
 .wv-form--horizontal .wv-form-fieldset--address, .wv-form--vertical .wv-form-fieldset--address {
-    display: -webkit-flex;
+    display: flex;
     display: flex
 }
 
@@ -18667,7 +18667,7 @@ input[type=number].wv-input {
 }
 
 .wv-tile-button.wv-tile-button--horizontal {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -18726,7 +18726,7 @@ input[type=number].wv-input {
         }
 
 .wv-tile-button-group {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
@@ -18752,7 +18752,7 @@ input[type=number].wv-input {
 
 @media (max-width: 480px) {
     .wv-tile-button:not(.wv-tile-button--small) {
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-align-items: center;
         align-items: center;
@@ -18796,7 +18796,7 @@ input[type=number].wv-input {
 
 @media (max-width: 400px) {
     .wv-tile-button.wv-tile-button--small {
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-align-items: center;
         align-items: center;
@@ -20023,14 +20023,14 @@ input[type=number].wv-input {
         height: 100%;
         width: 100%;
         position: fixed;
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-flex-direction: column;
         flex-direction: column
     }
 
     .wv-modal__content__scroll-area {
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-flex-direction: column;
         flex-direction: column;
@@ -20057,7 +20057,7 @@ input[type=number].wv-input {
     width: 100%;
     height: 100%;
     bottom: -100%;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
@@ -20094,7 +20094,7 @@ input[type=number].wv-input {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
@@ -20118,7 +20118,7 @@ input[type=number].wv-input {
     border: none;
     background: transparent;
     cursor: pointer;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
@@ -20144,7 +20144,7 @@ input[type=number].wv-input {
     -webkit-flex: 1;
     flex: 1;
     overflow: auto;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column
@@ -20239,7 +20239,7 @@ input[type=number].wv-input {
     bottom: 0;
     left: 0;
     height: 100%;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     text-align: center;
     background: #fff;
@@ -20265,7 +20265,7 @@ input[type=number].wv-input {
 }
 
 .wv-notify--info, .wv-notify--warning, .wv-notify--success, .wv-notify--danger {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     position: relative;
     width: 100%;
@@ -20309,7 +20309,7 @@ input[type=number].wv-input {
     }
 
 .wv-notify__content-wrapper {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex: 1;
     flex: 1;
@@ -20333,7 +20333,7 @@ input[type=number].wv-input {
 
 .wv-notify__actions {
     width: 100%;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
@@ -20377,7 +20377,7 @@ input[type=number].wv-input {
 
         .wv-notify--small .wv-notify__content-wrapper .wv-notify__content {
             margin: 0 16px 0 0;
-            display: -webkit-flex;
+            display: flex;
             display: flex
         }
 
@@ -20390,7 +20390,7 @@ input[type=number].wv-input {
     .wv-notify--small .wv-notify__actions {
         width: auto;
         padding: 0 16px 0 0;
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-align-items: flex-end;
         align-items: flex-end
@@ -20608,7 +20608,7 @@ input[type=number].wv-input {
 }
 
 .wv-workflow__task__content {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
@@ -20782,7 +20782,7 @@ input[type=number].wv-input {
 
     .wv-popover__actions.wv-button-wrapper, .wv-popover__actions.wv-notify__actions:not(.wv-button-wrapper) {
         margin-top: 16px;
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-justify-content: center;
         justify-content: center
@@ -20843,7 +20843,7 @@ input[type=number].wv-input {
 }
 
 .wv-pagination {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -20874,7 +20874,7 @@ input[type=number].wv-input {
 }
 
 .wv-pagination__results, .wv-pagination__pages {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center
@@ -20969,7 +20969,7 @@ input[type=number].wv-input {
 }
 
 .wv-wizard {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
@@ -20986,7 +20986,7 @@ input[type=number].wv-input {
 
 @media (max-width: 1024px) {
     .wv-wizard__tasklist {
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         width: 100%;
         padding: 16px 0 16px 8px;
@@ -21015,7 +21015,7 @@ input[type=number].wv-input {
     background-color: white;
     font-size: 20px;
     line-height: 36px;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
@@ -21169,7 +21169,7 @@ input[type=number].wv-input {
     margin-bottom: 24px;
     cursor: default;
     box-sizing: border-box;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center
@@ -21346,7 +21346,7 @@ input[type=number].wv-input {
     }
 
 .wv-topbar--app, .wv-topbar--minimal {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -21788,7 +21788,7 @@ input[type=number].wv-input {
 }
 
 .wv-nav__menu__item__link {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -21898,7 +21898,7 @@ input[type=number].wv-input {
 .wv-nav__menu--apps .wv-nav__menu__item__label {
     font-weight: normal;
     color: inherit;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center
@@ -22046,7 +22046,7 @@ input[type=number].wv-input {
 
 .wv-nav--tertiary {
     width: 100%;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap
@@ -22127,13 +22127,13 @@ input[type=number].wv-input {
 
 .wv-nav--tertiary__toggle__icon {
     margin: 0 12px;
-    display: -webkit-flex;
+    display: flex;
     display: flex
 }
 
 @media (max-width: 768px) {
     .wv-nav--tertiary__toggle {
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-align-items: center;
         align-items: center;
@@ -22305,7 +22305,7 @@ input[type=number].wv-input {
         position: fixed;
         bottom: 12px;
         width: 218px;
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-justify-content: center;
         justify-content: center;
@@ -22360,7 +22360,7 @@ input[type=number].wv-input {
 
 @media (min-width: 800px) {
     .wv-nav__promo--topbar {
-        display: -webkit-flex;
+        display: flex;
         display: flex
     }
 }
@@ -22511,7 +22511,7 @@ input[type=number].wv-input {
 
 .wv-toast__content {
     max-width: 664px;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: row;
     flex-direction: row;
@@ -22589,7 +22589,7 @@ input[type=number].wv-input {
 .wv-toast__content__actions {
     width: 100%;
     margin-top: 16px;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: row;
     flex-direction: row;
@@ -22602,7 +22602,7 @@ input[type=number].wv-input {
 }
 
 .wv-toast__content__simple-action {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -22942,7 +22942,7 @@ input[type=number].wv-input {
 }
 
 .wv-financial-institution__header {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
@@ -22955,7 +22955,7 @@ input[type=number].wv-input {
 }
 
 .wv-financial-institution__header__bank-logo-name-wrapper {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -22979,7 +22979,7 @@ input[type=number].wv-input {
 }
 
 .wv-financial-institution__account-details {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
@@ -22997,7 +22997,7 @@ input[type=number].wv-input {
 }
 
 .wv-financial-institution__account-details__balance {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-direction: row;
     flex-direction: row;
@@ -23026,7 +23026,7 @@ input[type=number].wv-input {
 }
 
 .wv-insights-box {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
@@ -23105,7 +23105,7 @@ input[type=number].wv-input {
 
 .wv-insight > .wv-insight__label, .wv-insight--large > .wv-insight__label {
     margin: 0;
-    display: -webkit-flex;
+    display: flex;
     display: flex
 }
 
@@ -23249,7 +23249,7 @@ input[type=number].wv-input {
 }
 
 .wv-callout-wrapper {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap
@@ -23263,7 +23263,7 @@ input[type=number].wv-input {
 }
 
 .wv-callout {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
@@ -23294,7 +23294,7 @@ input[type=number].wv-input {
 }
 
 .wv-callout__title {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -23343,7 +23343,7 @@ input[type=number].wv-input {
     margin: 16px 0;
     width: 100%;
     text-align: center;
-    display: -webkit-flex;
+    display: flex;
     display: flex
 }
 
@@ -23425,7 +23425,7 @@ input[type=number].wv-input {
 }
 
 .wv-topbar--app, .wv-topbar--minimal {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -23479,7 +23479,7 @@ input[type=number].wv-input {
 
 .wv-topbar__menu-toggle {
     cursor: pointer;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -23710,7 +23710,7 @@ input[type=number].wv-input {
 }
 
 .wv-business-switcher__toggle {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -23824,7 +23824,7 @@ input[type=number].wv-input {
 }
 
 .wv-business-switcher__panel__header {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
@@ -24115,7 +24115,7 @@ input[type=number].wv-input {
 .wv-footer--app .wv-footer__help-toggle {
     cursor: pointer;
     color: #4d6575;
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
@@ -24176,7 +24176,7 @@ input[type=number].wv-input {
 }
 
 .wv-footer--app {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
@@ -24233,7 +24233,7 @@ input[type=number].wv-input {
 }
 
 .wv-card--bank--affinity, .wv-card--bank--ally, .wv-card--bank--assiniboine, .wv-card--bank--bank-of-america, .wv-card--bank--bb-and-t, .wv-card--bank--bmo, .wv-card--bank--capital-one, .wv-card--bank--chase, .wv-card--bank--cibc, .wv-card--bank--citi, .wv-card--bank--citizens, .wv-card--bank--coast-capital, .wv-card--bank--conexus, .wv-card--bank--connect-first, .wv-card--bank--desjardins, .wv-card--bank--equitable, .wv-card--bank--fifth-third, .wv-card--bank--first-republic, .wv-card--bank--first-west, .wv-card--bank--laurentien, .wv-card--bank--meridian, .wv-card--bank--national-bank, .wv-card--bank--no-bank, .wv-card--bank--pc-financial, .wv-card--bank--pnc, .wv-card--bank--rbc, .wv-card--bank--regions-financial, .wv-card--bank--scotiabank, .wv-card--bank--servus, .wv-card--bank--silicon-valley, .wv-card--bank--simplii, .wv-card--bank--steinbach, .wv-card--bank--suntrust, .wv-card--bank--tangerine, .wv-card--bank--td, .wv-card--bank--us-bank, .wv-card--bank--usaa, .wv-card--bank--vancity, .wv-card--bank--wells-fargo {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-flex-flow: wrap;
     flex-flow: wrap;
@@ -24355,7 +24355,7 @@ input[type=number].wv-input {
     }
 
         .wv-payment-card .wv-payment-card__details .wv-payment-card__number {
-            display: -webkit-flex;
+            display: flex;
             display: flex;
             -webkit-justify-content: space-between;
             justify-content: space-between
@@ -24378,7 +24378,7 @@ input[type=number].wv-input {
 
         .wv-payment-card.bank .wv-payment-card__bank-details {
             height: 100%;
-            display: -webkit-flex;
+            display: flex;
             display: flex;
             -webkit-align-items: center;
             align-items: center
@@ -25145,7 +25145,7 @@ input[type=number].wv-input {
 
 @media (min-width: 481px) {
     .wv-button-wrapper.wv-button-wrapper--bookended, .wv-button-wrapper--bookended.wv-notify__actions:not(.wv-button-wrapper) {
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-justify-content: space-between;
         justify-content: space-between
@@ -25153,7 +25153,7 @@ input[type=number].wv-input {
 }
 
 .wv-header {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
@@ -25351,7 +25351,7 @@ input[type=number].wv-input {
 }
 
 .wv-header--page, .wv-header--page--centered, .wv-header--section {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
@@ -25402,7 +25402,7 @@ input[type=number].wv-input {
 }
 
 .wv-content {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center
@@ -25455,7 +25455,7 @@ html {
 
 @media screen {
     .wv-frame {
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-flex-direction: column;
         flex-direction: column;
@@ -25476,7 +25476,7 @@ html {
     }
 
     .wv-frame .wv-frame__wrapper {
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-flex: 1 1 0%;
         flex: 1 1 0%;
@@ -25496,12 +25496,12 @@ html {
     }
 
         .wv-frame .wv-frame__navigation.is-active {
-            display: -webkit-flex;
+            display: flex;
             display: flex
         }
 
     .wv-frame .wv-frame__content {
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-flex-direction: column;
         flex-direction: column;
@@ -25518,14 +25518,14 @@ html {
     }
 
         .wv-frame .wv-frame__content__header.is-active {
-            display: -webkit-flex;
+            display: flex;
             display: flex
         }
 
     .wv-frame .wv-frame__content__body {
         -webkit-flex: 1 1 0%;
         flex: 1 1 0%;
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-flex-direction: column;
         flex-direction: column;
@@ -25564,7 +25564,7 @@ html {
         }
 
     .wv-frame .wv-frame__content__body__main__banner__message-wrapper {
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-align-items: center;
         align-items: center
@@ -25650,7 +25650,7 @@ html {
     }
 
     .wv-frame--app .wv-frame__content__header {
-        display: -webkit-flex;
+        display: flex;
         display: flex
     }
 
@@ -25671,7 +25671,7 @@ html {
 
 @media only screen and (max-width: 1180px) {
     .wv-frame--app.is-open .wv-frame__navigation.is-active {
-        display: -webkit-flex;
+        display: flex;
         display: flex
     }
 }
@@ -25702,7 +25702,7 @@ html {
 }
 
 html.wv-theme--partner .wv-partner-chrome__images {
-    display: -webkit-flex;
+    display: flex;
     display: flex;
     height: 64px;
     -webkit-align-items: center;
@@ -25774,7 +25774,7 @@ html.wv-theme--partner .wv-business-switcher .wv-business-switcher__toggle__info
         position: fixed;
         bottom: 12px;
         width: 218px;
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-justify-content: center;
         justify-content: center;
@@ -25873,7 +25873,7 @@ html.wv-theme--adp {
         align-items: center;
         margin: 0 auto;
         padding: 32px 0 20px 0;
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-justify-content: center;
         justify-content: center
@@ -26022,7 +26022,7 @@ html.wv-theme--adp .wv-footer--app {
         position: fixed;
         bottom: 12px;
         width: 218px;
-        display: -webkit-flex;
+        display: flex;
         display: flex;
         -webkit-justify-content: center;
         justify-content: center;
