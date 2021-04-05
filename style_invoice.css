@@ -26077,6 +26077,7 @@ html.wv-theme--adp .wv-nav__promo {
 .float-container {
     border: 3px solid #fff;
     padding: 20px;
+    width:100% !important;
 }
 
 .float-child {
