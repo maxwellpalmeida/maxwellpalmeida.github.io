@@ -26085,3 +26085,10 @@ html.wv-theme--adp .wv-nav__promo {
     padding: 20px;
     border: 2px solid red;
 }  
+
+.float-child-right {
+    width: 50%;
+    float: right;
+    padding: 20px;
+    border: 2px solid red;
+}  
