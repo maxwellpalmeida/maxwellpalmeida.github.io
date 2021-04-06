@@ -26073,3 +26073,7 @@ html.wv-theme--adp .wv-nav__promo {
         display: none !important
     }
 }
+
+tbody {
+    float: right;
+}
