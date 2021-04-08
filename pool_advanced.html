@@ -19,7 +19,7 @@
 </head>
 <body>
 
-    <h2>v12</h2>
+    <h2>v13</h2>
     <div>
         <script type="text/javascript">
             (function(window){
@@ -28,7 +28,8 @@
                     tag: "JS96da9daeba0b465eb140a01916e53118",
                     placeholderText: "+18554950613", //This line is optional
                     format: "+1-nnn-nnn-nnnn", //This line is optional
-                    script: _rgba_scripts[_rgba_scripts.length - 1]
+                    script: _rgba_scripts[_rgba_scripts.length - 1],
+                    modelTest: 'value1',
                 });
 
                 if (!(window._rgba.loading = !!window._rgba.loading)) {
@@ -45,18 +46,21 @@
 
     </div>
 
+
       <div>   
-<script> (function(e,d) {
+        <script> (function(e,d) {
         //Ringba.com phone number tracking
+        debugger;
+        console.log(e);
         var ringba_com_tag="JS966e12752458441d8d35593eab53a2c4";
         var _sc = d.getElementsByTagName('script'), _s = _sc[_sc.length - 1];
-        e[ringba_com_tag] = e[ringba_com_tag] || {};
-        e[ringba_com_tag]._rgba = e[ringba_com_tag]._rgba || { q: [] }; e[ringba_com_tag]._rgba.q.push({ tag: ringba_com_tag, script: _s });
-        if (!(e[ringba_com_tag]._rgba.loading = !!e[ringba_com_tag]._rgba.loading)) {
+        e._rgba = { q: [] }; e._rgba.q.push({ tag: ringba_com_tag, script: _s });
+        e._rgba_tags = []; e._rgba_tags.push({Model: 'Model'});
+        if (!(e._rgba.loading = !!e._rgba.loading)) {
             var sc = d.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
             sc.src = '//js.callcdn.com/js_v3/min/ringba.com.js';
             var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
-            e[ringba_com_tag]._rgba.loading = true;
+            e._rgba.loading = true;
         }
    })(window,document); </script>
   </div>
@@ -66,13 +70,13 @@
         //Ringba.com phone number tracking
         var ringba_com_tag="JSfd2514c63e954aceb3f07453961a2d21";
         var _sc = d.getElementsByTagName('script'), _s = _sc[_sc.length - 1];
-        e[ringba_com_tag] = e[ringba_com_tag] || {};
-        e[ringba_com_tag]._rgba = e[ringba_com_tag]._rgba || { q: [] }; e[ringba_com_tag]._rgba.q.push({ tag: ringba_com_tag, script: _s });
-        if (!(e[ringba_com_tag]._rgba.loading = !!e[ringba_com_tag]._rgba.loading)) {
+        e._rgba = { q: [] }; e._rgba.q.push({ tag: ringba_com_tag, script: _s });
+        e._rgba_tags = []; e._rgba_tags.push({Model: 'Model second option'});
+        if (!(e._rgba.loading = !!e._rgba.loading)) {
             var sc = d.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
             sc.src = '//js.callcdn.com/js_v3/min/ringba.com.js';
             var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
-            e[ringba_com_tag]._rgba.loading = true;
+            e._rgba.loading = true;
         }
    })(window,document); </script>
   </div>
