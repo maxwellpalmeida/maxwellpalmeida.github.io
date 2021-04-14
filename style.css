@@ -12567,7 +12567,8 @@ form .large-text {
         .pdf-export .invoice-template-details .wv-table__row .wv-table__cell:nth-child(2), .read-only-view .invoice-template-details .wv-table__row .wv-table__cell:nth-child(2) {
             word-wrap: break-word;
             min-width: 130px;
-            padding-right: 0
+            padding-right: 0;
+            text-align: right;
         }
 
         .pdf-export .invoice-template-details .wv-table__row .wv-table__cell, .read-only-view .invoice-template-details .wv-table__row .wv-table__cell {
