@@ -28367,3 +28367,7 @@ input:focus:not(.is-disabled), textarea:focus:not(.is-disabled), [class*="wv-sel
 }
 
 @media (max-width: 480px)
+
+.wv-table__row td {
+    text-align: right;
+}
