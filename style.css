@@ -12637,7 +12637,6 @@ form .large-text {
 .pdf-export #NextContemporary .contemporary-template__header__info, .read-only-view #NextContemporary .contemporary-template__header__info {
     -webkit-flex-grow: 1;
     flex-grow: 1;
-    width: 450px;
     text-align: right
 }
 
